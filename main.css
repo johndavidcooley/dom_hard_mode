@@ -1,0 +1,20 @@
+td {
+	height: 100px;
+	width: 100px;
+	border: 2px solid gray;
+	text-align: center;
+	font-weight: bold;
+	font-size: 40px;
+	background: green;
+	color: white;
+}
+
+.operators {
+	color: black;
+	background-color: lightgreen;
+}
+
+#display {
+	text-aign: right;
+	padding-right: 10px;
+}
