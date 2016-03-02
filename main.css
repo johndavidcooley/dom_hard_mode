@@ -1,9 +1,24 @@
-td {
-	height: 100px;
-	width: 100px;
-	border: 2px solid gray;
+ul {
+	list-style: none;
+	margin-top: 100px;
+}
+
+li {
+	display: inline-block;
+	margin: 40px;
 	text-align: center;
-	font-weight: bold;
+	vertical-align: middle;
+}
+
+table {
+	background-color: black;
+	font-family: Helvetica;
+}
+
+td {
+	height: 80px;
+	width: 80px;
+	text-align: center;
 	font-size: 40px;
 	background: green;
 	color: white;
@@ -15,6 +30,11 @@ td {
 }
 
 #display {
-	text-aign: right;
-	padding-right: 10px;
+	text-align: right;
+	padding-right: 25px;
+}
+
+#greater-than {
+	font-size: 200px;
+	padding-left: 40px;
 }
